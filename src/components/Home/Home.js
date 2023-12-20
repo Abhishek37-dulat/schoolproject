@@ -8,7 +8,6 @@ import Inquiry from "./Inquiry";
 import Testimonials from "./Testimonials";
 import FourSection from "./FourSection";
 import Banner from "./Banner";
-import Gallery from "./Gallery";
 
 const Home = () => {
   return (

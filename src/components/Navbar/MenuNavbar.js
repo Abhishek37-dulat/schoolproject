@@ -1,8 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { IoMdSearch } from "react-icons/io";
-
-import { CiSearch } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const MenuNavbar = () => {
   return (
@@ -25,34 +23,34 @@ const MenuNavbar = () => {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item active">
-                    <a className="nav-link mx-2" style={{ color: "#fff" }}>
+                    <Link className="nav-link mx-2" style={{ color: "#fff" }}>
                       Home <span class="sr-only">(current)</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mx-2" style={{ color: "#fff" }}>
+                    <Link className="nav-link mx-2" style={{ color: "#fff" }}>
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mx-2" style={{ color: "#fff" }}>
+                    <Link className="nav-link mx-2" style={{ color: "#fff" }}>
                       Course
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mx-2" style={{ color: "#fff" }}>
+                    <Link className="nav-link mx-2" style={{ color: "#fff" }}>
                       Staff
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mx-2" style={{ color: "#fff" }}>
+                    <Link className="nav-link mx-2" style={{ color: "#fff" }}>
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mx-2" style={{ color: "#fff" }}>
+                    <Link className="nav-link mx-2" style={{ color: "#fff" }}>
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

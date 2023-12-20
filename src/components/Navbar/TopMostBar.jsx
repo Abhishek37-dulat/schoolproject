@@ -9,7 +9,7 @@ const TopMostBarBox = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  margin:"10px 0px"
+  margin: "10px 0px",
 }));
 const LogoBox = styled(Box)(({ theme }) => ({
   //   border: "1px solid black",

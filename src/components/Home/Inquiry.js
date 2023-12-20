@@ -1,5 +1,4 @@
 import React from "react";
-import Bg5 from "../../images/bg_5.jpg";
 import "./inquiry.css";
 /* https://codepen.io/vivekmengu/pen/VayVjL */
 const Inquiry = () => {
