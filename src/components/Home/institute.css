@@ -1,0 +1,49 @@
+.institute-section {
+}
+.myinstitute {
+  /* background: linear-gradient(
+        -90deg,
+
+        rgba(223, 109, 34, 0.8),
+        rgba(76, 66, 109, 0.8)
+      )
+      fixed,
+    url("../../images/blog4.jpg") fixed;
+  background-size: cover; */
+  /* height: "720px";
+  width: "1310px"; */
+}
+
+.formsaaa {
+  display: flex;
+  padding: 60px 10px;
+  width: 100%;
+  background: linear-gradient(
+        -90deg,
+
+        rgba(223, 109, 34, 0.8),
+        rgba(76, 66, 109, 0.8)
+      )
+      fixed,
+    url("../../images/blog4.jpg") fixed;
+  background-size: cover;
+}
+.formmain {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+@media screen and (max-width: 760px) {
+  .formmain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .formmain {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

@@ -1,0 +1,89 @@
+.banner1 {
+  position: absolute;
+  top: 140px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+.banner2 {
+  position: absolute;
+  top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+.banner3 {
+  position: absolute;
+  top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+.banner-image1 {
+  position: relative;
+}
+.banner-image2 {
+  position: relative;
+}
+.banner-image3 {
+  position: relative;
+}
+/* .startsection {
+  background: black;
+  overflow: hidden;
+  background: #c33764;
+  background: -webkit-linear-gradient(
+    rgba(29, 38, 113, 0.8),
+    rgba(195, 55, 100, 0.8)
+  );
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+}
+
+img {
+  object-fit: cover;
+} */
+.myfirst {
+  background: linear-gradient(
+        -45deg,
+        rgba(223, 109, 34, 0.8),
+        rgba(76, 66, 109, 0.8)
+      )
+      fixed,
+    url("../../images/bg_1.jpg");
+  background-size: cover;
+}
+.mysecond {
+  background: linear-gradient(
+        -45deg,
+        rgba(223, 109, 34, 0.8),
+        rgba(76, 66, 109, 0.8)
+      )
+      fixed,
+    url("../../images/bg_2.jpg");
+  background-size: cover;
+}
+.mythird {
+  background: linear-gradient(
+        -45deg,
+        rgba(223, 109, 34, 0.8),
+        rgba(76, 66, 109, 0.8)
+      )
+      fixed,
+    url("../../images/course-2.jpg");
+  background-size: cover;
+}
+@media screen and (max-width: 760px) {
+  .banner1,
+  .banner2,
+  .banner3 {
+    margin-left: 50px;
+  }
+}
